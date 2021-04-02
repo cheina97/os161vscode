@@ -5,11 +5,12 @@
 	[https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions](https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions)
  2. Installare il pacchetto C/C++
 ![enter image description here](https://code.visualstudio.com/assets/docs/cpp/cpp/cpp-extension.png)
- 3. Scaricare le configurazioni dal git:
+ 3. * Se utilizzi la VM con Ubuntu 14, scaricare le configurazioni dal git:
 	[https://github.com/thomascristofaro/os161vscode](https://github.com/thomascristofaro/os161vscode)
- 4. Estrai la cartella “.vscode” dentro la cartella: `home/pds/os161/os161-base-2.0.2/kern`
+	* Se utilizzi la VM con Ubuntu 20, scaricare le configurazioni presenti in questo git
+ 4. Estrai la cartella “.vscode” dentro la cartella: `~/os161/os161-base-2.0.3/kern`
 	 - Se non la vedi premi `CTRL+H` perché è una cartella nascosta
- 5. Ora apri Visual studio code, apri la cartella `home/pds/os161/os161-base-2.0.2/kern` e dovresti avere un’interfaccia senza errori (di include, intellisense…) e pronto per le modifiche
+ 5. Ora apri Visual studio code, apri la cartella `~/os161/os161-base-2.0.3/kern` e dovresti avere un’interfaccia senza errori (di include, intellisense…) e pronto per le modifiche
 
 ## Utilizzo
 ### Task definite:
@@ -23,7 +24,7 @@
  - **Build and Install**: Compila la nuova versione e sposta l'eseguile nella cartella del run
 	`cd compile/${input:VersionName};bmake;bmake install`
  - **Run OS161**: Fa partire il sistema all'interno del terminale di VS Code
-`cd /home/pds/pds-os161/root;sys161 -w kernel`
+`cd ~/os161/root;sys161 -w kernel`
 
 
 ### Come si utilizzano

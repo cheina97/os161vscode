@@ -3,13 +3,13 @@
         {
             "name": "Linux",
             "includePath": [
-                "/home/pds/os161/os161-base-2.0.2/kern/include/",
-                "/home/pds/os161/os161-base-2.0.2/kern/lib/",
-                "/home/pds/os161/os161-base-2.0.2/kern/compile/DUMBVM/",
-                "/home/pds/os161/os161-base-2.0.2/kern/compile/DUMBVM/includelinks/"
+                "~/os161/os161-base-2.0.3/kern/include/",
+                "~/os161/os161-base-2.0.3/kern/lib/",
+                "~/os161/os161-base-2.0.3/kern/compile/DUMBVM/",
+                "~/os161/os161-base-2.0.3/kern/compile/DUMBVM/includelinks/"
             ],
             "defines": [],
-            "compilerPath": "/home/pds/os161/tools/bin/mips-harvard-os161-gcc",
+            "compilerPath": "~/os161/tools/bin/mips-harvard-os161-gcc",
             "cStandard": "c99",
             "cppStandard": "c++14",
             "intelliSenseMode": "gcc-x64"
